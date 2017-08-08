@@ -29,14 +29,17 @@ var flybaseKudos = new Flybase("YOUR-API-KEY", "YOUR-APP", "kudos");
 Include the kudo scripts from the `dist` directory
 
 ```html
-<!-- Kudos script -->
+<!-- Jquery -->
+<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<!-- Flybase -->
 <script src="https://cdn.flybase.io/flybase.js?latest=1"></script>
-<script type="text/javascript" src="kudos/kudos.js"></script>
-<script type="text/javascript" src="kudos/kudos.flybase.js"></script>
-<link rel="stylesheet" href="kudos/kudos.css">
+<!-- Kudos script -->
+<script type="text/javascript" src="https://cdn.flybase.io/kudos/kudos.js"></script>
+<script type="text/javascript" src="https://cdn.flybase.io/kudos/kudos.flybase.js"></script>
+<link rel="stylesheet" href="https://cdn.flybase.io/kudos/kudos.css">
 ```
 
-Note that you need to have jQuery as well.
+*Note that you need to have jQuery as well.*
 
 **Step 4 - Add HTML snippet**  
 As the last step include the following snippet
